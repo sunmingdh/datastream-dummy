@@ -15,12 +15,21 @@ start audit server
 ```
 npm start
 or
-npm run start-audit
+npm run audit
 ```
 
 or
 
 start google analytics server
 ```
-npm run start-google
+npm run google
 ```
+
+
+### Run as server to show http headers
+```
+npm run google
+curl http://localhost:9982/header
+```
+
+
