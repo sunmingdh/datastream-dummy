@@ -1,0 +1,14 @@
+services:
+  audit:
+    build:
+      context: .
+      dockerfile: Dockerfile.audit
+    ports:
+      - "8100:8100"
+
+  google-analytics:
+    build:
+      context: .
+      dockerfile: Dockerfile.google
+    ports:
+      - "9982:9982"

@@ -1,0 +1,33 @@
+# Node.js specific
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Development files
+.git
+.gitignore
+README.md
+.env
+.env.*
+
+# IDE specific
+.vscode
+.idea
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build and test files
+coverage
+*.log
+dist
+build
+
+# Docker files
+Dockerfile*
+docker-compose*
+.docker

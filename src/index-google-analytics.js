@@ -9,7 +9,7 @@ app.use(bodyparser.urlencoded({ extended: true }))
 // accept POST requests on the / endpoint
 app.post('/platform-analytics/event', (req, res) => {
     // show request json data
-    console.log(req.body);
+    console.log(JSON.stringify(req.body, null, 2));
     // send OK response
     res.send('OK');
 })
